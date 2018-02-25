@@ -16,6 +16,9 @@ public class hello {
     //r.a = 4;
     //r.b = 6;
     System.out.println("powierzchnia prostokatu o boku " + r.a + " i " + r.b +  " = " + r.area());
+
+
+
   }
 	public static void hello(String somebody) {
 
@@ -29,4 +32,20 @@ public class hello {
   public static double area(Rectangle r) {
 	  return r.a * r.b;
   }
+
+  /*public String toString(){
+    return "Odległość od punktu a do b wynosi: " + distance +".";
+  }
+  public static void main(String[] args){
+    Point p0 = new Point();
+    Point p1 = new Point(0.0,0.0);
+    Point p2 = new Point(3.0,3.0);
+    Point p3 = new Point(9.0,9.0);
+    System.out.println(p0.toString());
+    System.out.println(p0.toString());
+    System.out.println(p0.toString());
+    System.out.println(p0.toString());
+    System.out.println("Odległość między punktami p1 i p2 wynosi" + p1.Odleglosc(p1, p2));
+    System.out.println("Odległość między punktami p1 i p2 wynosi" + p1.Odleglosc(p1, p3));
+  }*/
 }

@@ -2,6 +2,8 @@ package pl.sandbox;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pl.sandbox.Square;
+
 
 public class SquareTests {
 

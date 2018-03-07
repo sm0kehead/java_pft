@@ -9,7 +9,7 @@ public class NewAddressCreation extends TestBase {
     public void testNewAddressCreation() {
 
         app.newAddressPage();
-        app.fillAddressDataForm(new ContactData("Artur", "Wójtowicz", "awojtowicz@test.pl"));
+        app.fillAddressDataForm(new ContactData("Artur", "Wójtowicz", "awojtowicz@test.pl", "test1"));
         app.saveAddressFormChanges();
     }
 }
